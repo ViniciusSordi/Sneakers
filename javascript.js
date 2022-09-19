@@ -100,11 +100,11 @@ thumbImages2.forEach((item) => {
 });
 const thumbContainer2 = document.querySelectorAll(".thumb-container")[1];
 thumbContainer2.classList.add("thumb-container2");
-const max670 = window.matchMedia("(min-width: 670px)");
+const max1060 = window.matchMedia("(min-width: 1061px)");
 
 //Open and close lightbox
 function toggleImage() {
-  if (max670.matches) {
+  if (max1060.matches) {
     main.classList.toggle("active");
   }
 }

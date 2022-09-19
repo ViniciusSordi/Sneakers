@@ -528,6 +528,9 @@ main.active #fade2 {
 }
 
 @media (max-width: 1060px) {
+  .images-container {
+    max-width: 550px;
+  }
   .main-container {
     grid-template-columns: 1fr;
     justify-items: center;
